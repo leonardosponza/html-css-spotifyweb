@@ -31,5 +31,5 @@ li{
     text-decoration: none;
 }
 .logo{
-    color:white
+  z-index: 1;
 }
