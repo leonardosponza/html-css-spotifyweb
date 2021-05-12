@@ -32,6 +32,8 @@ li{
 .logo{
   z-index: 1;
   color: white;
+  line-height: 1.6;
+  margin-top: 30px;
 }
 .bottom{
   color: white;
@@ -40,4 +42,5 @@ li{
 }
 .immagine{
     width: 20px;
+    <
 }
