@@ -21,9 +21,14 @@ body{
     min-width: 250px;
     font-size: 15px;
 }
+.menu-verticale a{
+    color: white;
+    text-decoration: none;
+}
 
 .azione{
     background-color: rgba(0, 0, 0, 0.3);
+    
 }
 
 .gallery{
@@ -48,10 +53,11 @@ li{
     padding: 25px 0;
     width: 65%;
 }
-.bottom{
-  color: white;
-  width: 20px;
-  
+.bottom {
+  color: white; 
+}
+.bottom img{
+    width: 20px;
 }
 .immagine{
     width: 20px;
@@ -59,6 +65,8 @@ li{
 }
 .playlist{
     color: white;
+    width: 100%;
+    margin-top: 30px;
 }
 /* z-index configuration*/
 .zi-100{
@@ -111,4 +119,17 @@ li{
 
 .mb-20{
     margin-bottom: 20px;
+}
+.flex{
+    display: flex;
+
+}
+.w100{
+  width: 100%;
+}
+.nav-bottom{
+    height: 80px;
+}
+.nav-top{
+    height: calc(100% - 80px);
 }
