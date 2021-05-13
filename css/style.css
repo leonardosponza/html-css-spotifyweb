@@ -143,3 +143,13 @@ li{
 .nav-top{
     height: calc(100% - 80px);
 }
+.gallery section{
+    margin: 20px 0;
+}
+
+.gallery section ul li a{
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-size: 15px;
+
+}
