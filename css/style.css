@@ -3,9 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    color: white;
+    overflow-y: hidden;
+}
 .menu-verticale{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: calc(100vh - 100px);
     background-color: black;
+    min-width: 250px;
+    font-size: 15px;
 }
 
 .azione{
@@ -28,6 +37,7 @@ footer{
 li{
     color: white;
     text-decoration: none;
+    list-style: none;
 }
 .logo{
   z-index: 1;
@@ -42,5 +52,10 @@ li{
 }
 .immagine{
     width: 20px;
-    <
+    
 }
+.playlist{
+    margin-top: 80px;
+    color: white;
+}
+
