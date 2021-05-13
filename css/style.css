@@ -158,3 +158,24 @@ li{
     text-decoration: none;
     list-style: none;
 }
+.gallery{
+    height: 100%;
+    background-color: #141922;
+    padding: 100px 20px 0;
+    color: white;
+}
+
+.gallery .box{
+    max-width: 200px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.gallery .box img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gallery .box img.round{
+    border-radius: 50%;
+}
