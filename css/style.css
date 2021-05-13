@@ -153,3 +153,8 @@ li{
     font-size: 15px;
 
 }
+.contenitore a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
