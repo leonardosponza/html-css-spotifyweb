@@ -11,8 +11,6 @@
 </head>
 <body>
 
-    <div class="container-fluid overflow-hidden">
-
      <main class="row overflow-hidden">
         <!-- inizio menu verticale -->
         <nav class="menu-verticale row col-xs-2 overflow-hidden zi-500">
@@ -225,10 +223,42 @@
       </main>
 
       <footer class="row">
-        <div class="col-xs-2"><div class="box"></div></div>
-        <div class="col-xs-4 col-xs-offset-2"><div class="box"></div></div>
-        <div class="col-xs-2 col-xs-offset-2"><div class="box"></div></div>
+        <div class="col-xs-2 left">
+            <div class="box">
+                <img src="img/sinister.jpeg" alt="" id="now-play">
+                <div>sinister</div>
+                <span>nome brano</span>
+            </div>
+            <div class="box">
+                <i class="far fa-heart"></i>
+                <i class="far fa-folder"></i>
+            </div>
+            
+        </div>
+        <div class="col-xs-4 col-xs-offset-2">
+            <div class="box">
+                <i class="fas fa-random"></i>
+                <i class="fas fa-step-backward"></i>
+                <i id="play-btn" class="far fa-play-circle"></i>
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-redo-alt"></i>
+                <span class="wh-txt">0:25</span>
+                <div class="range-bar">
+                    <div class="active-range"></div>
+                </div>
+                <span class="wh-txt">4:35</span>
+            </div>
+        </div>
+        <div class="col-xs-2 col-xs-offset-2">
+            <div class="box">
+                <i class="fas fa-list"></i>
+                <i class="fas fa-desktop"></i>
+                <i class="fas fa-volume-up"></i>
+                <div class="range-bar">
+                    <div class="active-range"></div>
+                </div>
+            </div>
+        </div>
       </footer>
-    </div>
 </body>
 </html>

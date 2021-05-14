@@ -12,6 +12,9 @@ body{
     vertical-align: middle;
     margin: 0 5px 10px 0;
 }
+main{
+    height: calc(100vh - 100px);
+}
 .menu-verticale{
     display: flex;
     flex-direction: column;
@@ -179,5 +182,76 @@ li{
 .gallery .box img.cerchio{
     border-radius: 50%;
 }
+.contenitore{
+    height: 100%;
+}
+/* FOOTER */
 
+footer .col-xs-2{
+    min-width: 250px;
+    padding: 0 10px;
+}
+
+footer .box{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content:space-evenly;
+}
+
+#now-play{
+    width: 50px;
+    margin-right: 10px;
+}
+
+footer .box div{
+    font-size: 20px;
+}
+
+footer .box span{
+    font-size: 20px;
+}
+
+footer .left i{
+    margin-right: 10px;
+    color: #7f7f7f;
+}
+
+footer .left i:hover{
+    color: white;
+}
+
+footer .center .box{
+    width: 100%;
+    justify-content: center;
+}
+
+.commands > i{
+    margin: 15px 10px 0;
+    font-size: 20px;
+}
+
+#play-btn{
+    font-size: 30px;
+}
+
+#play-btn:hover{
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.range-bar{
+    width: 50%;
+    height: 4px;
+    border-radius: 10px;
+    background-color: #5a5a5a;
+    margin: 0 10px;
+}
+
+.active-range{
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    background-color: #c1c1c1;
+}
 
